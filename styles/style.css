@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body {
+    margin: 0 10% 0 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    padding: 0 0 0 0;
+}
+
+.grid-container input[type="checkbox"] {
+    appearance: none;
+    display: block;
+    cursor: pointer;
+    height: 5px;
+    width: 87px;
+    margin: 0 0 0 0;
+}
+
+.grid-container input[type="checkbox"]:checked {
+    appearance: none;
+    display: block;
+    cursor: pointer;
+    height: 5px;
+    width: 87px;
+    background-color: pink;
+    margin: 0 0 0 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.grid-container input[type="checkbox"]:checked + img {
+    border: 1px solid rgb(126, 126, 126);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 10px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid-container > div {
+    align-items: center;
+    width: 87px;
+}
+
+img {
+    max-height: 85px;
+    max-width: 85px;
+    border: 1px solid rgb(126, 126, 126); 
+    border-radius: 5px;
+}
+
+.final-container {
+    display: flexbox;
+    text-align:center;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+#button-final {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#button-final:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+#button-final:active {
+    background-color: rgb(150, 150, 150);
+}
