@@ -33,7 +33,7 @@ main {
     cursor: pointer;
     height: 5px;
     width: 87px;
-    background-color: pink;
+    background-color: rgb(255, 203, 212);
     margin: 0 0 0 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
