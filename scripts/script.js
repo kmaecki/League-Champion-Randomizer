@@ -115,9 +115,10 @@ function losuj() {
 }
 // --------------------
 
-function checkAll(checkBox) {
-    get = document.getElementsByName('checkbox');
-    for(var i=0; i<get.length; i++) {
-        get[i].checked = checkBox.checked;
+function checkAll() {
+    const allBtn = document.getElementById('checkall');
+    const get = document.getElementsByName('checkbox');
+    for(let i = 0; i < get.length; i++) {
+        get[i].checked = allBtn.checked;
     }
 }
